@@ -6,7 +6,7 @@ namespace Tyuiu.MikhailovVN.Sprint1.Task0.V26
     {
         static void Main(string[] args)
         {
-            DataService dss = new DataService();
+            DataService ds = new DataService();
 
             Console.Title = "Спринт #1 | Выполнил: Михайлов В. Н. | ИСТНб-26-1";
             Console.WriteLine("***************************************************************************");
@@ -28,7 +28,7 @@ namespace Tyuiu.MikhailovVN.Sprint1.Task0.V26
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(dss.Calculate());
+            Console.WriteLine(ds.Calculate());
 
             Console.ReadKey();
         }

@@ -6,7 +6,7 @@ namespace Tyuiu.MikhailovVN.Sprint1.Task0.V26.Lib
     {
         public double Calculate()
         {
-            return 4 * 5 / 2 - 18 / 2 / 3;
+            return 4*5/2-18/2/3;
         }
     }
 }
